@@ -1,4 +1,4 @@
-export * from './levenshtein.js'
+// export * from './levenshtein.js'
 
 export function latin(string, replacement = ' ') {
 	return string?.replace(/[^a-z]/gi, replacement)
